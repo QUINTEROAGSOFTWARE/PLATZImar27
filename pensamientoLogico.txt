@@ -1,0 +1,84 @@
+¿Que propiedades usaria para resolver el siguiente problema: 15*(2+7) PEOPEIEDAD DISTRIBUTIVA
+El producto de cualquier numero y 1 siempre da como resultado el mismo numero PROPIEDAD DE IDENTIDAD
+El orden de los factores No altera el resultado  PROPIEDAD CONMUTATIVA
+//Sistema binario
+Decimal 0 1 2 3 4 5 6 7 8 9
+Binario 1 0 precencia 1 y aucencia 0
+Sistema binario 1 0 1 1 1 0 1
+
+// Conversion entre decimal y binario  
+28 dividido entre 2 y multiplicado *2 0
+14 dividido entre 2 y multiplicado *2 0
+7 dividido entre 2 y multiplicado *2 1
+3 dividido entre 2 y  multiplicado *2 1
+2 dividido entre 1 y multiplicado *1 1
+de derecha a izquierda todos los resultados de la operacion 28 = 1 1 1 0 0
+lectura uno uno uno cero cero 
+
+//Proceso opuesto de binario a decimal 
+lectura de derecha a izquierda y colocamos vertical multiplicado *2º ala potencia de su posicion
+0 por 2 a potencia 0 = 1 por 0 = 0 sumado 0
+0 por 2 a potencia 1 = 2 por 0 = 0 sumado 4 
+1 por 2 a potencia 2 = 4 por 1 = 4 sumado 8
+1 por 2 a potencia 3 = 8 por 1 = 8 sumado 12
+1 por 2 a potencia 4 = 16 por 1 = 16 sumado 12 = 28 
+
+//Suma de binario
+0 + 0 = 0
+1 + 0 = 1
+0 + 1 = 1
+1 + 1 = 0 y se lleva 1
+
+ 1 1 0      1 1 0
++          +
+ 0 0 1      0 1 1
+=          =
+1 1 1      1 0 0 1
+
+//Resta de binario
+0 - 0 = 0
+1 - 0 = 1
+1 - 1 = 0
+0 - 1 = 1 y se lleva 1
+
+ 1 0 1
+- 
+ 0 1 1
+ =
+ 0 1 0
+
+ // multiplicacion  de binario
+ 0 * 0 = 0
+ 0 * 1 = 0
+ 1 * 0 = 0
+ 1 * 1 = 1
+
+  1 1 0
+  * 1 0
+   0 0 0
+ 1 1 0
+ 1 1 0 0
+
+ // Divicion de binario
+
+Dividendo 
+ 1 0 1 1 0
+Divisor
+ 1 0
+
+ 1 0 / 1 0 1 1 0
+
+10< 1 = 
+10 < 10 = 1
+    -10
+  =
+    00
+10<1 = 0 
+10<11 =1 
+  -10
+  =
+   01
+10<10 = 1
+  -10
+ =
+  00 
