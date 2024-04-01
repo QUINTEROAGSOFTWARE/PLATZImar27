@@ -1,3 +1,4 @@
+//INTRODUCIÓN
 ¿Que propiedades usaria para resolver el siguiente problema: 15*(2+7) PEOPEIEDAD DISTRIBUTIVA
 El producto de cualquier numero y 1 siempre da como resultado el mismo numero PROPIEDAD DE IDENTIDAD
 El orden de los factores No altera el resultado  PROPIEDAD CONMUTATIVA
@@ -82,3 +83,164 @@ Divisor
   -10
  =
   00 
+  //Quiz propiedades y operaciones
+#1 convierte el numero  41 a sistema binario =101001
+  
+#2 ¿a cual sistema de numeracion pertenece el numero 3? sistema decimal
+
+#3 divide 110 por 10 en sistema binario =11
+
+#4 Las operaciones en binario funcionan  exactamente igual que el sistema decimal = falso
+
+#5 multiplicacion de 111 por 101 en sistema binario = 100011
+
+//OPERADORES
+
+// TABLAS DE VERDAD
+Herramienta que nos ayuda a determinar cuales son  las condiciones necesarias para que sea verdadero válido el enunciado propuesto
+ NEGACION: Devuelve elvalor opuesto ala proposición considerada; si es verdadera retorna falso y viseversa
+
+ //CONJUCIÓN, es verdadero cuando ambas son verdaderas
+ A B A&B
+ v v = v
+ v f = f
+ f v = f
+ f f = f 
+
+ //DISYUCIÓN, será verdadero cando por lomenos una O ambas de las proposiciones es verdadera, de lo contrario sera falsa
+ A B A&B
+ v v = v
+ v f = v
+ f v = v
+ f f = f
+
+ //NEGACION & OPERADORES LOGICOS: Son herramientas que nos permiten entender aquellas condiciones que nos permiten obtener un resultado positivo o negativo en funcion de 1 & 0 con el que algo puede suceder o no puede suceder
+  
+  operador      / Propósito           / Definición
+   No         True si es falso         invierte el valor de una afrimacion
+   Y         true si anbas son v     
+   O         true si hambas son v
+   Xor       true si una de ellas es v 
+
+    //OPERADORES  ARITMÉTICOS, son estos simbolos que nos permiten identificar cuales son esos perocesos, resultadosdentro de su flujo de trabajo 
+    operador             proposito                       ejemplo
+      +             suma de dos valores             total venta + propinas
+      -             busca diferencia entre valores  ptrecio - descuento
+      *             multiplica numeros              cantidad * precio 
+      /             divide numeros                  cantidad de productos
+
+      //OPERADORES DE COMPARACIÓN:
+  Operador                  Proposito                             Ejemplo
+   <        true si el primer valor es menor que el segundo      valor1 < valor2
+   <=       true si el primer valor es menor o igual al segundo  valor1 <= valor2
+   >        true si el primer valor es mayor que el segundo      valor1 > valor2
+   >=       true si el primer valor es mayor o igual al segundo  valor1 >= valor2
+   =        true si el perimer valor es igual al segundo          valor1 = valor2
+   <>       true si el primer valor es opuesto al segundo         valor1 <> valor2
+
+   //IDENTIDAD DE OPERADORES 
+    1               0 
+  true            false
+    1      no       0             NEGACION
+  abre            cierra  
+    1               0= 0 false    
+    1               1= 1 true
+    1               0= 1 true     DISYUCIÓN
+    0               0= 0 false
+    1       >       0= true 
+    1       <       0= false
+    1       =       1= true
+    1       =       0= false
+    1      >=       0= true
+    1      <=       0= false
+//Quiz tablas de verdad 
+#1 Devuelve el valor opuesto de la preposición considerada NEGACIÓN
+#2 Es verdadero  cuando ambos enunciados son verdaderos CONJUCIÓN
+#3 Es verdadero cuando uno o ambos enunciados  es verdadero DISYUCIÓN
+
+//ALGORITMOS Y DIAGRAMA DE FLUJO
+Serie de pasos definidos que van secuencial mente y logran el objetivo de la mejor forma 
+¿Como construir un algoritmo?
+situacion de ejemplo ; Wuiero encnder la luz de la habitacion donde estoy en este momento
+
+Análisis
+requerimiento: hay una luz apagada 
+recursos: abitacion donde estoy
+objetivo: encender la luz
+
+paso a paso lista de pasos
+#1-validar que la luz este apagada  
+#2-identificar donde encendere la luz
+#3-oprimir el encendedor de la luz
+¿si yo realizo estos pasos encendera la luz?
+
+dividir en partes cada vez mas pequeñas
+
+//¿Que es un diagrama de flujo?
+un conjunto de simbolos o elementos que tienen un significado y juegan un papel muy importante en la composicion del diagrama que nos permiten representar cada uno de los pasos que xomponen un proceso
+OVALO: inicio o fin 
+ROMBO: decision pregunta
+CUADRADO: proceso
+FLECHA: conector
+
+//Reto 1 ¿Hay dinero en el cajero electronico? diagrama de flujo
+
+Análisis
+requerimiento: validar que este en el cajero
+recursos: identificar si hay dinero suficiente
+objetivo: Retirar la cantidad solicitada
+
+OVALO: inicio
+FLECHA
+ROMBO: ¿estas en el cajero? 
+FLECHA: negacion
+CUADRADO: NO Ir al cajero
+FLECHA: volver a inicio
+FLECHA: afrimacion
+CUADRADO: Si Solicitud cantidad de dinero
+FLECHA: afrimacion
+CUADRADO: ¿Hay esa cantidad solicitada?
+FLECHA: afrimacion
+CUADRADO: Retirar la cantidad solicitada
+FLECHA: negacion
+CUADRADO: solicitud de cantidad de dinero (nueva mente)
+OVALO: Final del flujo
+
+//Reto 2 Buscador de ciudades
+
+Análisis
+requerimiento: evaluar que ciudades hacen parte de colombia
+recursos: lista de ciudades 
+objetivo: retornar ciudades colombianas
+
+OVALO:      inicio
+FLECHA:     
+CUADRADO:   nombre  de la ciudad que validaremos
+FLECHA:
+CUADRADO:    ¿esta en colombia? 
+FLECHA:             si
+CUADRADO:   return si es colombia 
+FLECHA:           si no esta fin
+OVALO:        fin
+
+//Reto 3 Loguin de usuarios
+secuencia logica de procesos que necesitamos  que sucedan para que el login a la cuenta de aceso sea correcto
+
+OVALO:       inicio
+FLECHA:
+CUADRADO:   ingresar usuario
+FLECHA:
+CUADRADO:   ingresar la contraseña
+FLECHA:
+ROMBO:       ¿ingreso los datos?
+FLECHA:       si los ingreso mal volver a ingresar
+ROMBO:      ¿son correctos los dactos?
+CUADRADO:   Dar acceso
+OVALO:      fin
+
+//Quiz 
+#1 ¿Que figura usarias para presentar una decision en diagramas de flujo? ROMBO
+#2 ¿Que figura usarias para representar el inicio o fin de un algoritmo con diagrama de flujo? OVALO
+#3 ¿Que elemento usarias para representar con diagrama de flujo que tu algoritmo debe imprimir un mensaje?  CUADRADO
+#4 ¿Que figura usarias para representar un proceso en diagramas de flujo? CUADRADO
+#5 ¿Que elemento usarias para representar con diagramas de flujo que tu algoritmo debe hacer una pregunta para determinar si tomara un camino u otro? ROMBO
