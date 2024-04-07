@@ -1,0 +1,302 @@
+//¿Que es un dato?
+Es una porcion de informacion muy concreta y espesifica que nos permite atravez de diferentes operaciones y extructuras tomar decisiones y hacen parte de un algoritmo en una extructura mas grande
+son la vase sobre la cual partimos y sobre la cual llegamos ellos componen todas las extructuras para que puedan funcionar y sean operables
+ 
+ //Tipo de dato TEXTO: Compuesto por letras principal mente cadena de caracteres aquel que esta Compuesto por una secuencia de letras que van a ir unidas formando una palabra o una operaciones
+ ejemplo
+ Andres_está_estudiando
+ A_n_d_r_e_s:               los espacios tambien forman parte de la cadena de caracteres
+
+ //Concatenacion: Es la union que realizamos entre dos cadenas de texto y van a formar una sola  para que esto suceda y sea efectivo es necesario que ambas partes sean del mismo tipo de dato
+ ejemplo
+ Andres-está = Andresesta : Al momento de concatenar los espacios no se agregan por defaull se debe indicar el espacio
+ Andres_está  = Andres está : En este caso se concatena los tres componentes
+ Andres19-97está = Andres1997está : mientras se exprece que es dato tipo texto los numeros siguen siendo texto
+
+ //Tipo de dato NUMERICO   
+ Numeros Entero         7 10 20         INT
+ Numeros Decimales      7.123, 10.08,   FLOAT
+ Numeros Negativos      -7, -10, -20
+ejemplo                 
+7+10= 17,  7*10= 70
+"7" + "7"= "77" : concatenacion de numeros tipo de dato texto
+75-10 = 7510
+75+10= 85 
+
+//Tipo de dacto BULEANOS
+True = 1        false = 0
+Ejemplo
+
+ROMBO:  (?)  si = true = 1      no = false = 0
+
+
+//Tipo de dato ARRAYS
+En este tipo de dato llamado array es donde conviven los diferentes tipos de datos que hay: TEXTO,NUMERICO,BULEANOS
+imaginemos un contenedor con diferentes espacios disponibles para un dato distinto, si bien no estan juntos ni concatenados ni operados en una operacio matematica ni un punto para tomar decision
+pero pueden ir juntos y al mismo tiempo estar separados. Una unidad en si que contiene otras unidades
+atravez de diferentes extructuras podremos acceder a cada una de las unidades dentro del array de forma distinta operarla  en cad una de ellas incluso unirlas sin que se destruyan  o acaben las demas unidades 
+podemos realizar operaciones deacuerdo a su pocicion numerica empesando desde el numero [0] siempre sera la primera posicion el numero [0]
+los arrayS tienen un tamaño y una longitud: es cuantos espacios tiene dentro ese array es muy importante saber que tienen una implicacion en el uso de la memoria  por eso cuando usamos array IMPORTANTE para que lo necesito y su caso de uso
+¿necesito tener todos los diferentes datos y tipos de datos dentro o  podre operar con tipos de datos de forma independiente?
+
+
+//ALGORITMO DE UN RELOJ
+
+H= horas
+M = minutos
+S= segundos
+Inicial : 00:00:00 volver al final
+Final   : 23:59:59 volver al inicio
+
+OVALO :   inicio
+FLECHA:
+CUADRADO: inicializar H,M,S en 0
+FLECHA:
+CUADRADO: Mostrar la hora deacuerdo al anterior proceso
+FLECHA:
+CUADRADO: aumentar el valor de los segundos en una unidad sera  S = S + 1
+FLECHA:
+ROMBO:  ¿ya nuestro segundo es igual a 60? ¿S ==60?
+FLECHA: si 
+CUADRADO: segundo vuelve a cero minuto suma 1       S = 0 M = M + 1
+FLECHA: no Mostrar la hora en 0
+ROMBO:    ¿Si minuto es  igual a 60? 
+FLECHA: no es igual a 60 Mostrar la hora en 0
+CUADRADO: si minuto es igual a 0                    M =0 
+FLECHA: si
+CUADRADO: hora igual a hora mas 1                   H=H+1
+FLECHA: si
+ROMBO: ¿Hora ya llego a 24?         H = 24
+FLECHA: si 
+CUADRADO:  hora es igual a 0            
+FLECHA: no volver a la variable segundos
+CUADRADO:   segundo es igual segundo mas uno 
+
+
+//ESTRUCTURA DE CONTROL
+Estas se conocen tambien cmo sentencias de control de flujo son las que nos permiten conttrolar las deciciones y funcionamiento en nuestros algroritmos
+ utilizan los operadores  tambien los tipos de datos y conectan la secuencia logicas para que podamos crear todo un algoritmo con un resultadotal como lo esperamos
+ ¿cuales son aquellas que tenemos a nuestra dispocicion?
+ #1: CONDICIONALES : estos nos permiten tomar deciciones apartir de una comparacion o apartir de una operacion
+     contamos con (IF/ELSE) basados en true y false     (SWITCH) este nos permite evaluar diferentes casos sobre una comparacion o situacion especifica (TRY/CATCH) en caso de que una instrucion no se aiga podido ejecutar de la forma correcta
+ #2: CICLOS: Realizan diferentes iteraciones deacuerdo a condiciones o situaciones que nuestro algoritmo nos este pidiendo
+    contamos con (FOR) este hace un recorrido de diferentes iteraciones deacuerdo a una cantidad de iteraciones necesitadas y una condicion(WHILE) (DO WHILE)  QUE Realizan  siertas acciones mientras uuna situacion este sucediendo o se cumpla y apartir de ello se ejecutaran instruciones que estan dentro de si mismo
+
+//CONDICIONALES
+if(3>2) return "Es mayor a 2"   if(3=3) return "Son iguales"
+else(1>2) return "Es 5"
+
+switch (3>2):
+case True
+consecuencia1
+case False:
+consecuencia2
+defaull:
+consecuencia3
+
+//RERO 5 ALGORITMOS CON VARIABLES Y CONDICIONALES
+ROMBO:
+¿Es mayor de edad?
+edad=X
+mayor=18
+
+if (edad>=18) return "Es mayor de edad"
+else return "No es mayor de edad"
+
+switch(edad)
+    case 18:
+        return "Es mayor de edad"
+    case<18:
+        return "No es mayor de edad"
+    case >18:
+        return"puede conducir"
+
+
+
+switch(edad)
+    case 18:
+        return "puede manejar"
+    case <18:
+        return  "llamen a la mamá"
+    case >18:
+        return  "puede conducir"
+    case =30:
+        return  "es papá"
+    case >50:
+        return  "no es papá"
+
+//CICLOS
+
+punto: A
+punto: B
+ iteraciones necesarias para cambiar de punto
+ for
+ punto mde partida
+ cantidad de iteraciones
+ incrementando
+ 0 1 2 3
+ 
+
+while           mientras algo sucede vas a iterar
+    1<3  true    siclo infinito
+    2<3  true    siclo infinito
+    3<=3 true    siclo infinito
+    3<3  false   siclo terminado
+
+ ciclos infinitos son squellos que nunca llegan de un punto a otro volviendo al punto de partida de forma indefinida
+
+
+do while        
+
+    mostrar A  hacer esto
+    wile n<3    mientras esto sucede hasta que deje de suceder terminas con el CICLO
+
+ALGORITMOS CON CICLOS
+Ejemplo
+Edades de grupo de personas
+array Edades:       [5, 10, 20, 18]
+                     0  1    2   3 = 4 posiciones = cantida de iteraciones a realizar un siclo para iniciar y finalizar su proceso sobre cada una de sus posiciones
+
+                    for 
+                    inicio                  --> pocicion 0
+                    iteraciones             --> espacios 4 vueltas debe de dar = 4
+                    incremento              --> ++(+1)
+                    final                   --> 3
+
+                    var edades
+                    for  (var edades =0; edades =++1){
+                        if( edad=1++)
+                    }
+
+
+                    while
+                        <=3 
+
+                    do while
+                        condicion:<=3
+
+//TRY CATCH: 
+esta nos permite realizar una accion   o una instrucion cuidando el proceso para que fluya de forma correcta 
+en caso de que la instrucion tenga error catch sera el plan de contingencia
+
+
+
+try     --> Instrucion
+catch   --> plan B 
+ejemplo
+try.escribir  en un documento
+[Ana
+Juan
+Pablo
+Julia]
+catch.Guardame en un array cada uno de estos nombres
+[Ana,Juan,Pablo,Julia] 
+
+
+//Quiz Estrtucturas de control
+
+¿Que  instrucion ayuda a mantener el flujo correcto de nuestros procesos y ejecutar un plan de contingencia ante errores TRY-CATCH?
+¿Que tipo de resultado devuelve una operacion de numeros? BULEANOS
+¿Cuales  son algunas  estructuras esenciales en programacion para evaluar casos especificos y controlar el flujo de ejecución?  COMPARACION SITUACIONES ESPECIFICAS TRY-CATCH Y CICLOS 
+¿Cual es una de las ventajas del SWITCH frente al IF? EVALUAR MULTIPLES CASOS 
+¿Que estructura  permite manejar  dos escenarios diferentes segun si una condicion se cumple o no? IF-ELSE
+
+
+//¿QUE ES UNA FUNCION EN PROGRAMACION? es el cojunto de instruciones que realizan una accion especifica
+quiere decir que  una instrucion es tener una centencia IF con toda su estructura  y un RESULTADO que sera la salida de una funcion 
+claro esta que una funcion contiene una estructura  esta tiene valores de entrada valores de salida y que puede estarconectado con otras funciones
+
+//FUNCION: una funcion es un bloque de instruciones que hacen una actividad especifica y es suma mente fundamentalque definamos un punto exacto  en el cual algo o un proceso va a tener un punto importante si bien podemos tenerlo todo junto es una mejor practica  utilizar funciones para segmentar  aquellas partes de nuestro algorimo que quiza se puedan reutilizar o que tienen como finalidaun resulado muy especifico  
+
+flujo de trabajo:
+decicion
+    if()
+    else{
+
+    }
+siclo
+    for()
+    ++(1+)
+    final
+almacenamiento de dactos
+    array[0]
+
+    //bloque de funcionalidad
+    funcion1[preguntar]
+    funcion2[especifica]
+    
+Ejemplo:
+        if()
+        else{
+
+        }
+        return ;
+        funcion validacion(x)
+        for()
+        if()
+        else{
+
+        }
+        return;
+
+
+
+//SCOPE O ALCANCE EN FUNCIONES: Las funciones son un bloque de instruciones especificas  que re  una accion   especifica
+que ademas de ayudarnos a organizar nuestro algorimo tienen un alcance  que hay una funcionalidad y una razon para que estemos segmentando y separando mucho mejor flujos de trabajo que estemos desarrollando
+como nos pueden ayudar a trabajar en mas de un lugar  una misma instrucion
+
+FUNCIONES PRIVADAS
+                                            FUNCIONES PUBLICAS          
+    funcion1 privada           ---->          funcion 1 publica                        
+    funcion2 privada                            funcion 2 publica
+    funcion3 privada                            funcion 3 publica
+
+    algorimo1                                   algorimo2 
+
+ si el algorimo1 tiene  funciones claras y especificas  pueden funcionar para el algorimo2 y no tenga que definir una extructura exactamente igaual el la del primer algoritmo1 para replicarla en el algoritmo2 si se define que esa funcion sera publica se puede llamar en el segundo algoritmo 
+ cuando se define que la funcion es privada se espesifica que funciona solo en el algoritmo donde este reutilizandola en el mismo documento sin salir de el documento 
+importante definir el alcance de las funcione aunque aveces las privadas hablen de cosas especificas o que realize algo que solo funciona en el documento donde estan las funciones privadas 
+si tratamos con cosas mas complejas  con algo que no pueda ser compartido con otros documentos que la puedan necesitar 
+se debe definir su propio funcionamiento dentro del documento que se necesite es importante que se tenga en cuenta  para que se necesita que una funcion sea privada y cuando se necesita que sea publica  de esta manera se protejen siendo privadas o se reutilizan en diferentes documentos externos siendo publicas 
+
+
+//ALGORITMO CON FUNCIONES
+
+Ejemplo Practico
+                INICIALIZACION
+H = horas           = 0 
+M = Minutos         = 0
+S = Segundos        = 0
+
+Formato     00:00:00
+            H  M  S 
+Condiciones     si S = 60 --> S = 0
+                si M = 60 --> M = 0
+                si H = 23 --> H = 0
+                  A       B
+Funcion Validar (tipo, limite){
+
+        if(tipo == limite){
+            tipo = 0;
+        }
+} 
+    for (i=0; i < tipos.length; i++){
+        validar(tipos[i], limite[i])
+    }
+
+
+//Quiz MANEJO DE DACTOS  ESTRUCTURA Y FUNCIONES
+
+¿Que tipo de scope puede tener una funcion? PUBLICO O PRIVADO 
+¿Los tipos de dato boleanos se representan con 1 Y 2? FALSO 
+¿Cuantas iteraciones debe tener un ciclo?  LAS CANTIDADES ASIGNADAS DEACUERDOA A SU ESTRUCTURA
+¿La instrucion if else  es un siclo? FALSO
+¿La sentencia  Swithc se utiliza  para realizar validaciones de diferentes casos? VERDADERO 
+¿Un cilo puede inicializarce en 1? VERDADERO
+¿La sentencia Catch  de un bloque Try/Catch nos permite encapsular la seccion de nuestro algoritmo en caso de que un resultado haya sido verdadero  o sin errores? FALSO
+¿Un array puede almacenar  más de un tipo de dacto? VERDADERO
+Las funciones sirven para : Expresar la dependencia entre dos magnitudes 
+¿34139 es untipo de dato? NUMERICO
+¿En que categoria se dividen las estructuras de control? CONDICIONALES Y CICLOS
+¿Cual es la diferencia  entre ciclo while y ciclo Do while?
+"Marta esta en el mar" es un dato tipo TEXTO 
