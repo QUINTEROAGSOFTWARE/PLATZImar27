@@ -1,0 +1,200 @@
+//¿COMO EMPEZO TODO?
+
+ÁBACO: Fue la primer compuctadora 
+
+MAQUINAS NO ELECTRONICAS: Que nos ayudaban a incrementar la forma en la que haciamos cuentas
+
+COMPUTADORAS HUMANAS: Personas que llebaban cuentas muy puntuales calculos muy problematicos resolver los de forma muy rapida sin usar herramientas como los aracol
+
+LIBROS CON CÀLCULOS :Precomputacion táble  ya venias con siertas operaciones utilizados para resolver los problemas 
+
+
+PRIMERAS MAQUINAS: En el cual podamos ingresar sierta informacion  y nos ayude en mucho menor tiempo a tener un resultado 
+
+TARGETAS PERFORADAS: papel con orificios para poder pasar a la computadora los datos que necesito 
+
+MACHING CODE: Lenguaje de la computadora en el cual entiende el mundo que nosotros le estamos pasando datos en 1 y 0 el oc entiende genera siertos calculos y nos regresa un resultado
+
+PRIMER LENGUAJE DE PROGRAMACION: IBM 
+
+
+//INPUTS Y OUTPUTS
+meto informacion pasa algo y resivo informacion que es el resultado de la informacion que yo meti con un sierto calculo 
+
+Entrada (input) datos 
+Proceso (manejo de la informacion)
+Salida (ouput) resultado
+
+ porque tenemos dispositivos que  nos ayudan a meter o introducir informacion  
+ tenemos dispositivo que nos ayudan a generar un resultado  de esa informacion 
+ Ejemplo: 
+ un teclado, raton , control, microfono etc 
+ procesa la compuctadora
+ recibimos la informacion atraves de un monitor, speaker
+ Muchos Cálculos:  el proceso la parte inicial  cuando nace el ÁBACO nosotros necesitabamos calculos 
+ 
+ 
+ //BINARIO
+ Maching code codigo binario  notacion decimal  
+ sistema de conteo {0,1,2,3,4,5,6,7,8,9} si deseamos numeros mayores a 9 generamos un numero a la izquierda y todoo lo que se queda a la derecha incrementa desde 0 
+
+ centena de millon  1
+ decena de millon   2 
+ unidad de millon   3
+ centena de mil     4
+ decena de  mil     5
+ unidad de mil      6
+ centena            7
+ decena             8
+ unidad             9
+ pero las maquinas solo entienden el sistema binario 0 & 1
+contamos con 8 cantidades dijitos con la cual vamos a contar la cual son los siguientes
+{128,64,32,16,8,4,2,1} como sabemos? 1*2=2 2*2=4 4*2=8 8*2=16 16*2=32 32*2=64 64*2=128
+
+//Ejemplo
+00000001 =1
+00000010 =2
+00000011 =3
+00010100 =20
+11111111 =255
+01000110= 70
+
+
+//BITS & BYTS
+Cada espacio se conoce como un bit, el conjunto  de 8 espacios se conoce como un byte y esto  tiene un  peso el bits es una reprecentacion de 156 patrones [combinaciones que nos da un valor de 255]
+traductor o proceso la clave fundamental son los transistores que han venido evolucionando hasta convertir los procesadores en millones de transistores enccargandose asi de la traducion 
+
+//ASCII 
+Representacion de letras y siertos caracteres iniciales en codigo binario 
+Ejemplo Alfabeto mayusculas
+
+A       B       C       D       E       F       G       H       I       J       K       L       M       N       O           P         Q         R           S       T       U       V       W       X       Y       Z 
+65     66      67      68      69      70       71      72      73      74      75      76      77      78      79          80        81        82          83      84      85      86      87      88     89      90
+
+ASCII
+    161 72 111 108 97 33
+       H   o    l   a  !
+
+BINARIO 
+       1 0 1 0 0 0 0 1
+       0 1 0 0 1 0 0 0
+       0 1 1 0 1 1 1 1
+       0 1 1 0 1 1 0 0
+       0 1 1 0 0 0 0 1
+       0 0 1 0 0 0 0 1
+
+       //UNICODE 
+Lista amplia de caracteres y emogies y año tras año salen nuevos que foman parte de este codigo 
+
+//RGB
+Como funcionan los colores  tres pixeles RED GREEN BLUE  estos colores tienen tonos que se convierten a numero binario  que van desde el 0 hasta el 255
+cada color esta representado por tres sed de unidades 
+
+Ejemplo
+
+Plum purpule
+R:178  G:80 B:228
+
+BINARIO
+R: 1 0 1 1 0 0 1 0
+G: 0 1 0 1 0 0 0 0
+B: 1 1 1 0 0 1 0 0
+
+//DEDONDE VIENE EL INTERNET
+¿Que es y de donde viene el internet?
+el internet viene de cables estos mismos pasan por todo el mundo de forma submarina atrabes de los continentes
+internet backbone ineter coneccion por cables del mundo para que podamos tener internetworking, y se creo en los años 70's para referirse a los cables fisicos y las computadoras que se conectan entre si
+
+ARPANET
+Advanced Research Projects Agency Network  fue un proyecto de investigacion academica proyecto financiado por el gobierno para que univesidades pudiesen conectarse para la transferencia de informacion en codigo binacio donde se difieren entre destello de luz donde traduce en on & off para poder incrementar la seguridad atraves de las mismas 
+el primer mensaje  que se intento enviar en la cracion del mismo proyecto entre las 2 primeras universidades fue [Loging] proceso de validacion para transferir informacion dando respuesta a la palabra [Lo] llevando a que se sumaran mas universidades  evoluionando el proyecto a lo que hoy tenemos de ello surge  el correo electronico y el @ para enviar informacion de manera especifica FTP trasmicion de archivos de univesidad a univesidad sumandose noruega lodres hawai conectandose atravez de satelites formando red de universidades interconectadas 
+creando problemas debido a eso crean sus reglas  saliendo las propuestas de como hoy navegamos 
+
+PROTOCOLOS 
+reglas que deben seguir las compuctadoras y la coneccion para poderse comunicar son 5 etapas 
+
+APLICATION HTTP/FTP                informacion de origen y destino
+TRASNPORTE TPC,UDP                 divide paqute muy grande 
+NETWORK    IP,ROUTERS              heder informacion pasada ip addres origen y destino 
+DATALINK   ETHERNET,SWITCHES       
+PHYSICAL   CABLES
+
+estos son todos los pasos para poder asegurar la iformacion
+
+ISP:Internet Service  Provider
+Probedores de internet locales
+
+DNS: Domain Name System sistema de nomenclatura jerarquico descentralizado permitiendo usar nombres 
+IP Address: direcion de la pc  es un numero 216.58.214.174 = google.com 
+
+
+PRIMER DESARROLLADOR WEB: Tim Berners-Lee
+escribio las tres tegnologias fundamentales que siguen siendo la base de la web actual programando un lenguaje 
+
+HTML: HyperTextMarkup language. lenguaje de marcado (formato para la web)
+URL:  Uniform Rescurce Locator. un tipo de direcion que es unica y que se utiliza para identificar cada recurso de la web
+HTTP: Hypertext Transfer Protocol. Permite la recuperacion de recursos vinculados de toda la web 
+
+Primera pagina web : World Wide Web Browser 
+
+Web Browser: Mosaic 
+IBM 
+
+Apple zafari
+Chrome 
+
+W3C: World Wide Web Consortium - grupo de personas que se encarga de trabajar y creser los standares que nos ayudan a consumir la web de una mejor forma 
+
+       HTTP Methods
+
+Methods              Descripción
+Get                  Solicita datos
+POST                 Envia datos
+PUT                  Crea o remplazar datos
+DELATE               Borra datos especificos
+
+       HTTPS
+protocolo evolucion con el tema de seguridad  en el cual asegura mi coneccion de pc al servidor sea 100% encriptada todo  tipo de informacion  
+https aseguramos que la informacin pase de forma segura 
+http conetion insegura de manera normal
+
+//STANDARES WEB
+
+El motor asegura que cada uno de los standares web puedan implementarse de esa forma y el motor y el navegador entiendan el standar como la w3c lo esta sacando al dia de hoy todos los navegadores estan usando un solo motor chromium 
+
+HTML:         estructura base del contenido texto e imagenes 
+CSS:          constricion de estilos agregar diseños y estilos
+Javascript:   interaciom con la web
+
+//Web Assembly 2019 diciembre nacio 
+Lenguage de bajo nivel maching code lenguaje de las maquinas nos ayuda a utilizar otros lenguajes de programacion  a diseñar en web compilando a un lenguajeque el comutadorueda entender 
+
+//Web Moderna 
+Uso multiplataforma mas de 4.000 dispositivos conectados a internet  = mas de la mitad de la humanidad desde dispositivos chicos hasta los mas grande 
+
+//INTERNET OF THINGS
+Eco sistema de dispositivos conectados a internet que ayudan a generar muchos datos y todos ellos se van directa mente a internet para poder hacer  algo mas con esto
+
+maching learning :        Vehiculos inteligentes
+inteligencia artificial ; Robots 
+
+//COMO FUNCIONA EL NAVEGADOR
+Iniciamos con  una peticion http protocolo de conecion de mi pc con un servidor para poder obtener algo 
+       Pasos 
+Critical Rendering path
+
+#1 DOM        Document Object Model forma en como interpreta el navegador html  el DOM es un arbol de nodos o elementos que estemos utilizando en nuestro arhivo  eiqutas para extructurar la informacion generando un mapeo de elementos utilizados para ue sepa cual es la extctura ue queremos dar al proyecto y este lo ligamos con el siguiente paso de el
+
+#2 CSSDOM     CSS Object Model :El navegador va a leer o interpretar nuestro archivo de todos los estilos que usamos para nuestro proyecto proceso muy similaar a lo que pasa con el DOM elementos u objetos nodos  etiqueta utilizadas para dar estructura a nuestra informacion  en el head se solicita el CSS ligando cada una de sus etiquetas 
+
+#3 RENDER TREE                 
+#4 LAYOUT            Mapeo con siertos estilosque tengan que ver mas sobre como quedarian las pociciones de las cajas
+              company logo and slogam
+                     Heder
+              navigation    
+              about         quick links
+                            quick links
+              site plan and copyright info
+#5 PAINT      cando el navegador ya tiene posicionada la cajas madres con la pocicion que necesita aplicar los estilos eh inyectar la informacion  
+
+#6 JS         Javascript Engine motor recopila el lenguaje humano y traducirlo a MACHING CODE para que netra computadora sepa que hacer con eso y podamos lograr la interacion buscada
